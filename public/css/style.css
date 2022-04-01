@@ -1,0 +1,50 @@
+:root {
+    --primarycolor: ;
+    --secondcolor:;
+    --lightcolor:#FDFDFD;
+    --darkcolor:;
+    --graycolor:,
+
+    --spacing:0.5rem;
+    --spacing2: 1rem;
+    --spacing3: 2rem;
+    --spacing4: 3rem;
+
+    --font-size:1.5rem;
+    
+
+    --font-family:;
+} 
+body{
+ background-color: var(--lightcolor);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--font-size);
+}
+
+.purgatoire {
+    display:flex;
+    justify-content: flex-start;
+    
+
+}
+.purgatoire a { 
+    margin-left: var(--spacing2);
+    text-decoration: none;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+.navbar a {
+    margin-right: var(--spacing2);
+    text-decoration: none;
+}
